@@ -1,0 +1,5 @@
+environment: staging
+replicas: 1
+resource:
+  cpu: 50m
+  memory: 512Mi

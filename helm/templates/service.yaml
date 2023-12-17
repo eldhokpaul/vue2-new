@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app.kubernetes.io/name: sv2-vue
+    app.kubernetes.io/part-of: sv2
+  name: sv2-vue
+  namespace: {{ .Release.Namespace | quote }}
+spec:
+  ports:
+  - name: http
+    port: 80
+    targetPort: http
+  selector:
+    app.kubernetes.io/name: sv2-vue
+    app.kubernetes.io/part-of: sv2
+  type: ClusterIP

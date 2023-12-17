@@ -1,0 +1,5 @@
+environment: production
+replicas: 1
+resource:
+  cpu: 100m
+  memory: 512Mi

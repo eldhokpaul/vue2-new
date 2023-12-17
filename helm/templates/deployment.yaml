@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app.kubernetes.io/name: sv2-vue
+    app.kubernetes.io/part-of: sv2
+  name: sv2-vue
+  namespace: {{ .Release.Namespace | quote }}
+spec:
+  replicas: {{ .Values.replicas }}
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 0%
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: sv2-vue
+      app.kubernetes.io/part-of: sv2
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: sv2-vue
+        app.kubernetes.io/part-of: sv2
+    spec:
+      containers:
+      - image: gcr.io/sellervue/sv2-vue:{{ .Values.version }}
+        imagePullPolicy: Always
+        name: sv2-vue
+        ports:
+        - containerPort: 80
+          name: http
+        resources:
+          requests:
+            cpu: {{ .Values.resource.cpu }}
+            memory: {{ .Values.resource.memory }}
+

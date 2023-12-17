@@ -1,0 +1,13 @@
+FROM node:16-alpine as build-stage
+WORKDIR /app
+COPY package*.json ./
+COPY .env.dev ./.env
+RUN apk add --update python3 make g++ && rm -rf /var/cache/apk/*
+RUN yarn install
+COPY ./ .
+RUN yarn build
+
+FROM nginx as production-stage
+VOLUME /app
+COPY --from=build-stage /app/dist /app
+COPY api/ /app/api
