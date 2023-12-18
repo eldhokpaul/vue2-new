@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "download": "Download",
+    "assignedTo": "Assigned To",
+    "createdBy": "Created By",
+    "invoiceDate": "Invoice Date",
+    "supplier": "Supplier",
+    "invoiceNo": "Invoice No.",
+    "accountCode": "Account Code",
+    "total": "Total",
+    "paid": "Paid",
+    "balance": "Balance",
+    "disputed": "Disputed",
+    "currency": "Currency",
+    "status": "Status",
+    "bills":"Bills"
+  }
+}

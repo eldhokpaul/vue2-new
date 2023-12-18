@@ -1,0 +1,33 @@
+{
+  "subscriptionStatusTitle": "Subscription status:",
+  "viewHistory":"View subscription history",
+  "nextInvoice":"Your next invoice is scheduled to be billed on ",
+  "subscriptionStatuses": {
+    "ACTIVE": "Active",
+    "TRIALING": "Trialing",
+    "PAST_DUE": "Past due",
+    "PAUSED": "Paused",
+    "DELETED": "Deleted",
+    "TRIAL": "Trial",
+    "BetaTrial":"Beta Trial",
+    "FreeAccount":"Free Account"
+  },
+  "whatWouldYouLikeToDo": "What would you like to do?",
+  "updateYourPaymentMethod": "Update your payment method",
+  "upgradeOrChangePlan": "Upgrade or change plan",
+  "cancelYourSubscription": "Cancel your subscription",
+  "annualPlan": "Annual plan",
+  "primary":"Primary",
+  "save": "Save",
+  "eachYearByChangingYourPlanToTheAnnualPlan": "Each year by changing your plan to the annual plan",
+  "learnMore": "Learn more",
+  "billedOnceAnnually": "billed once annually",
+  "unknownPayment":"Unknown payment method",
+  "billing":"Billing",
+  "history":"History",
+  "subscriptionExpired":"Subscription Expired",
+  "switchAccount":"Switch Account",
+  "signUp":"Please sign up using the form below to continue using SellerVue.",
+  "upgrade":"Upgrade",
+  "addNew":"Add New"
+}

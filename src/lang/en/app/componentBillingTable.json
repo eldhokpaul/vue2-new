@@ -1,0 +1,21 @@
+{
+  "viewHistory": "View subscription history",
+  "alertTitle": "Pick your payment plan",
+  "alertDescription": "You can choose between the monthly or annual subscription options. All plans have no contracts and you can cancel at any time.",
+  "tableHeading": "Team member",
+  "descriptionHeading": "Description",
+  "unitHeading": "Unit (USD)",
+  "termHeading": "Term (Months)",
+  "totalHeading": "Total (USD)",
+  "subscription": "SellerVue Annual Subscription",
+  "subtotal": "Subtotal",
+  "annualDiscount": "Annual Discount",
+  "total": "Total",
+  "selectInterval": "Select your interval",
+  "monthly": "Monthly",
+  "annual": "Annual (Save 15%)",
+  "grandTotal": "Grand total",
+  "buyNow": "Buy now",
+  "yourTrial":" Your trial has ",
+  "daysRemaining":" days remaining"
+}

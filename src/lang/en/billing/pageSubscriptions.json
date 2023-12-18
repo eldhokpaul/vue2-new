@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "date": "Date",
+    "orderId": "Order ID",
+    "subscriptionId": "Subscription ID",
+    "subscriptionPlanId": "Subscription Plan",
+    "status": "Status",
+    "amount": "Amount",
+    "nextBillDate": "Next Bill Date",
+    "retryPaymentDate": "Retry Payment Date"
+  }
+}

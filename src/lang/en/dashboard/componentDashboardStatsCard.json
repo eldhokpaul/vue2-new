@@ -1,0 +1,10 @@
+{
+  "title:productsSold": "Products sold",
+  "title:turnover": "Turnover (YTD)",
+  "title:invoicesReconciled": "Invoices reconciled",
+  "title:worstSellingProduct": "Worst selling product",
+  "ctaText:viewAllProducts": "View all products",
+  "ctaText:viewReport": "View report",
+  "ctaText:viewAllInvoices": "View all invoices",
+  "ctaText:viewProduct": "View product"
+}

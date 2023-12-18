@@ -1,0 +1,5 @@
+{
+  "successVerificationText": "Your account has been successfully activated!",
+  "errorVerificationText": "Your account has not been activated, please contact us",
+  "rejectInvitationText":"Your account invitation is rejected"
+}

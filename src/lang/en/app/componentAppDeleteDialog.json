@@ -1,0 +1,9 @@
+{
+  "title": "Confirm",
+  "text": "Are you sure you want to delete this item?",
+  "actions": {
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "disconnect":"Disconnect"
+  }
+}

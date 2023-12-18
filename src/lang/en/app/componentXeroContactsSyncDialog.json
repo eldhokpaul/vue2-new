@@ -1,0 +1,14 @@
+{
+    "syncContact":"Sync your contacts from Xero",
+    "Sync":"Click START SYNC to sync your Xero contacts to your SellerVue account",
+    "startSync":"Start Sync",
+    "progress":"Sync in progress",
+    "syncWithXero":"Sync with Xero",
+    "sendAccountcode":"This will send Account Codes to your Xero account, are you sure you want to do this?",
+    "cancel":"Cancel",
+    "confirmSync":"Confirm sync",
+    "syncing":"Syncing",
+    "thisWillSend":" This will send ",
+    "areYouSure":" to your Xero account, are you sure you want to do this?"
+
+}

@@ -1,0 +1,18 @@
+{
+  "addLine": "Add invoice line",
+  "add": "Add",
+  "update": "Update",
+  "updateLine": "Update invoice line",
+  "costTypeOptions": {
+    "SHIPPING": "Shipping",
+    "FACTORY_INVOICE": "Factory Invoice",
+    "CUSTOMS_AND_DUTIES": "Customs & Duties",
+    "INSPECTIONS": "Inspections",
+    "LOCAL_FREIGHT": "Local Freight",
+    "INBOUND_SHIPPING": "Inbound Shipping",
+    "PHOTOGRAPHY": "Photography",
+    "DESIGNER_FEES": "Designer Fees",
+    "PRODUCT_SAMPLES": "Product Samples",
+    "OTHER": "Other"
+  }
+}

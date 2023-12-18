@@ -1,0 +1,25 @@
+{
+  "addALineItem": "Add Line Item",
+  "addAProduct": "Add a product",
+  "bulkUploadProduct": "Bulk upload products",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "duplicate": "Duplicate",
+  "reset": "Reset",
+  "selectAll": "Select all",
+  "upload": "Create new product",
+  "noProducts": "You haven't created any products yet",
+  "exportProducts": "Export Products",
+  "sku": "SKU",
+  "asin": "ASIN",
+  "name": "Name",
+  "skuDialogTitle": "Duplicate product",
+  "skuDialogDescription": "Enter a new name, ASIN and SKU to duplicate this product",
+  "actions": {
+    "delete": "Delete Product",
+    "text": "Are you sure you want to delete this product?"
+  },
+  "no": "No",
+  "yes": "yes",
+  "amazonUS": "Amazon US"
+}

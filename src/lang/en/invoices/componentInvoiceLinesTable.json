@@ -1,0 +1,13 @@
+{
+  "product": "Product",
+  "sku": "Stock Keeping Unit",
+  "name": "Product Name",
+  "account": "Account",
+  "internalReference": "Internal reference",
+  "costType": "Cost type",
+  "quantity": "Quantity",
+  "amount": "Amount",
+  "exclude": "Exclude",
+  "excludeFromProductDataTooltip": "Exclude from product data",
+  "save":"Save"
+}

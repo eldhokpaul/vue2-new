@@ -1,0 +1,8 @@
+{
+    "marketPlace":" 1. Please Select a Marketplace",
+    "openAccount":"2. Open Your Seller Central Account",
+    "mainAccountLogin":" In a seperate Browser Tab, please login to your Main Seller Central Account, or click here.You will need to use your Primary User Login Credentials.",
+    "authorizeApi":"3. Authorize API Registration",
+    "grantAccess":" Once you are logged into your Seller Central Account, you need to grant SellerVue access to your store data by clicking on the AUTHORIZE button on the right.",
+    "authorize":"Authorize"
+}

@@ -1,0 +1,13 @@
+{
+  "emailAddress": "Email address",
+  "password": "Password",
+  "passwordConfirm": "Confirm your Password",
+  "login": "Login",
+  "submit": "Submit",
+  "forgotPassword": "Forgot password?",
+  "firstName": "First name",
+  "lastName": "Last name",
+  "register": "Register",
+  "account":"Don't have an account yet?",
+  "create":" Create one"
+}

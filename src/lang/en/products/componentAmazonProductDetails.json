@@ -1,0 +1,13 @@
+{
+  "asin": "ASIN",
+  "amazonFees": "Amazon Fees",
+  "amazonStatus": "Amazon Status",
+  "feeStatus": "Fee Status",
+  "statusOptions": {
+    "ACCEPTED": "Accepted",
+    "NO_CHANGE": "No Change",
+    "NEW_CHANGE": "New Change",
+    "ON_HOLD": "On Hold",
+    "IN_REVIEW": "In Review"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "currency": "Currency",
+  "accountName": "Account Name",
+  "saveSettings": "Save settings",
+  "ordersAndShipments": "Orders and Shipments",
+  "archieveClosed":"Archive when closed",
+  "archieveDays":"Archive after X days"
+}

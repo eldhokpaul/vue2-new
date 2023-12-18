@@ -1,0 +1,13 @@
+{
+  "name": "Company Name",
+  "address": "Company Address",
+  "phone": "Company Phone",
+  "email": "Company Email",
+  "website": "Company Website",
+  "type": "Company Type",
+  "industry": "Industry",
+  "size": "Company Size",
+  "details": "Company Details",
+  "notSet": "Not set",
+  "save": "Save"
+}

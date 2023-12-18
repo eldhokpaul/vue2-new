@@ -1,0 +1,17 @@
+{
+  "details": "Details",
+  "products": "Products",
+  "lineItems": "Line items",
+  "schedulePayment": "Schedule payment",
+  "actions": {
+    "delete": "Delete Invoice",
+    "deleteProduct": "Delete Product",
+    "upload": "Upload new document",
+    "text": "The invoice you are about to delete has been reconciled. Deleting this invoice could put you out of balance. This action can not be undone. Are you sure you want to delete it?",
+    "textConfirmProduct": "Are you sure you want to delete the product(s)?",
+    "continueEditingDescription": "Your invoice was successfully updated. Continue editing this invoice?",
+    "continueEditing": "Continue editing",
+    "close": "Close"
+  },
+  "uploadedFile": "Uploaded file"
+}

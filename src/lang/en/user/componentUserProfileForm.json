@@ -1,0 +1,12 @@
+{
+  "firstName": "First name",
+  "lastName": "Last name",
+  "email": "Email",
+  "phone": "Phone",
+  "locationTimeZone": "Location/Time Zone",
+  "company": "Company",
+  "briefBio": "Brief Bio",
+  "notSet": "Not set",
+  "saveProfile": "Save profile",
+  "permissions": "Permissions"
+}

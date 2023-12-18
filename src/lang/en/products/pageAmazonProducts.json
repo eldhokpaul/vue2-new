@@ -1,0 +1,20 @@
+{
+  "reject": "Reject",
+  "success":"Success",
+  "accept": "Accept",
+  "refresh":"Refresh",
+  "sendEmail":"Send Email",
+  "amazonUs":"AMAZON US",
+  "amazonSyncError":"Amazon reported an error during the syncing process",
+  "syncAgain":" Please wait around 2 hours before syncing again.",
+  "amazonSync":" Amazon sync could take between 30 seconds and 24 hours. Please refresh this page to check its status. If you have any issues contact support@sellervue.com",
+  "syncProducts": "Sync products",
+  "syncInProgress":"Sync in progress",
+  "sendNotification":"Send Notification",
+  "noNewNotification":"No new notifications",
+  "seeAll":"SEE ALL",
+  "acceptConfirmMsg": "Are you sure you want to accept the selected products?",
+  "rejectConfirmMsg": "Are you sure you want to reject the selected products?",
+  "changedInAmazon": "Changed in Amazon",
+  "syncError": "The Amazon synchronisation process encountered an unexpected error. This has been reported to our team, please try again later."
+}

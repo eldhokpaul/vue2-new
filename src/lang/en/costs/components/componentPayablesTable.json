@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "download": "Download",
+    "duedate": "Due Date",
+    "assignedTo": "Assigned To",
+    "contact": "Contact",
+    "invoiceNo": "Invoice No.",
+    "account": "Account",
+    "amount": "Amount",
+    "currency": "Currency",
+    "status": "Status",
+    "paymentTerms": "Payment Terms",
+    "transactionReferenceNumber": "Transaction Reference Number",
+    "payables":"Payables"
+  },
+  "page":{
+    "transactionReferenceNumber": "Transaction Reference Number",
+    "payFrom": "Pay From",
+    "confirmText": "Please confirm that you wish to proceed with this payment?",
+    "optional": "Optional",
+    "undoConfirmText": "Please confirm that you wish to undo this payment?",
+    "syncAccount":"Sync account codes",
+    "confirmation":"Do you wish to send a confirmation of this payment to the contact?",
+    "downloadInvoice":"Click here to download",
+    "updatePayment":"Click here to update Payment",
+    "undoPayment":"Click here to undo your Payment",
+    "alreadyassociated":"This invoice line already has an order associated with it, so it cannot be removed.",
+    "donotmatch":" Payments do not match! Difference of ",
+    "swapped":"It looks like you may have swapped 2 numbers",
+    "publish":"Publish"
+  }
+}

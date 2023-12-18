@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "product": "Product",
+    "orderDate": "Order Date",
+    "payReference": "Pay Reference",
+    "costType": "Cost Type",
+    "unitsOrdered": "Units Ordered",
+    "factoryCosts": "Factory Costs",
+    "inboundCosts": "Inbound Costs",
+    "landedCosts": "Landed Costs",
+    "quantityOrdered": "Quantity Ordered",
+    "exclude": "Exclude",
+    "invoice": "Invoice",
+    "internalReference": "Internal Reference",
+    "costs":"Costs"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "companyName": "Company Name",
+    "email": "Email",
+    "telephoneNumber": "Telephone Number",
+    "source": "Created By",
+    "push": "Sync to"
+
+  },
+  "companyName": "Company name",
+  "telephoneNumber": "Telephone number",
+  "addressLine1": "Address Line 1",
+  "address": "Address",
+  "addressLine2": "Address Line 2",
+  "addressLine3": "Address Line 3",
+  "city": "City",
+  "zipOrPostCode": "Zip or Post Code",
+  "stateOrProvince": "State or Province",
+  "country": "Country",
+  "xeroId": "Xero ID",
+  "notes": "Notes"
+}

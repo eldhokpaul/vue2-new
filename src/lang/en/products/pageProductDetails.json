@@ -1,0 +1,27 @@
+{
+  "overview": "Overview",
+  "costs": "Costs",
+  "changelog": "Changelog",
+  "contacts": "Contact Details",
+  "productPackaging":"Product Packaging",
+  "casePackaging":"Case Packaging",
+  "bundle": "Bundle",
+  "cost": "Cost",
+  "currentlySelectedCosts": "costs currently selected",
+  "currentlySelectedCost": "cost currently selected",
+  "amazon": "Amazon",
+  "changeLog":{
+    "headers":{
+      "changeDate":"Date of Change",
+      "dimensions":"Dimensions",
+      "dimensionsUnit":"Dimensions Unit",
+      "weight":"Weight",
+      "weightUnit":"Weight Unit",
+      "changeSource":"Source of Change",
+      "productSizeTier":"Product Size Tier",
+      "description":"Change Description"
+
+    }
+  }
+
+}

@@ -1,0 +1,13 @@
+{
+  "addSupplier": "Add supplier",
+  "add": "Add",
+  "update": "Update",
+  "updateSupplier": "Update supplier",
+  "shippingMethod": "Shipping method",
+  "leadTime": "Lead time in days",
+  "options": {
+    "AIR": "Air Freight",
+    "SEA": "Sea Freight",
+    "LAND": "Land Freight"
+  }
+}

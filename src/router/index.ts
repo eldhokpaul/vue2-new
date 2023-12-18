@@ -1,30 +1,61 @@
-import Vue from "vue";
-import VueRouter, { RouteConfig } from "vue-router";
-import HomeView from "../views/HomeView.vue";
+import Vue from 'vue'
+import VueRouter, { RouteConfig } from 'vue-router'
 
-Vue.use(VueRouter);
+// import routes from modules
+import accountSettingsRoutes from '@/modules/account-settings/routes'
+import authRoutes from '@/modules/auth/routes'
+import billingRoutes from '@/modules/billing/routes'
+import contactsRoutes from '@/modules/contacts/routes'
+import costsRoutes from '@/modules/costs/routes'
+import dashboardRoutes from '@/modules/dashboard/routes'
+import demoRoutes from '@/modules/demo/routes'
+import integrationsRoutes from '@/modules/integrations/routes'
+import invoicesRoutes from '@/modules/invoices/routes'
+import marketplaceAccounts from '@/modules/marketplace-accounts/routes'
+import notifications from '@/modules/notifications/routes'
+import ordersRoutes from '@/modules/orders-shipment/routes'
+import productsRoutes from '@/modules/products/routes'
+import trialExpired from '@/modules/trial-expired/routes'
+import userRoutes from '@/modules/user/routes'
+import userManagement from '@/modules/user-management/routes'
+import usersRoutes from '@/modules/users/routes'
 
-const routes: Array<RouteConfig> = [
+Vue.use(VueRouter)
+
+// set up default routes (404)
+const defaultRoutes: RouteConfig[] = [
   {
-    path: "/",
-    name: "home",
-    component: HomeView,
-  },
-  {
-    path: "/about",
-    name: "about",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
-  },
-];
+    path: '*',
+    name: '404',
+    component: () => import(/* webpackChunkName: "default-views" */ '@/views/404.vue')
+  }
+]
+
+const routes: RouteConfig[] = [
+  ...authRoutes,
+  ...dashboardRoutes,
+  ...billingRoutes,
+  ...productsRoutes,
+  ...userRoutes,
+  ...invoicesRoutes,
+  ...costsRoutes,
+  ...trialExpired,
+  ...integrationsRoutes,
+  ...usersRoutes,
+  ...accountSettingsRoutes,
+  ...marketplaceAccounts,
+  ...defaultRoutes,
+  ...contactsRoutes,
+  ...ordersRoutes,
+  ...userManagement,
+  ...notifications,
+  ...demoRoutes
+]
 
 const router = new VueRouter({
-  mode: "history",
+  mode: 'history',
   base: process.env.BASE_URL,
-  routes,
-});
+  routes
+})
 
-export default router;
+export default router

@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "address": "Address",
+    "telephoneNumber": "Telephone Number",
+    "email": "Email",
+    "companyName": "Company Name"
+  },
+  "actions": {
+    "confirmDeletion": "Are you sure you want to delete this contact?"
+  },
+  "add": "Add a user",
+  "noUsers": "You haven't added any users yet",
+  "update": "Update",
+  "address": "Address",
+  "telephoneNumber": "Telephone number",
+  "email": "Email",
+  "companyName": "Company name",
+  "emailAddress": "Email address",
+  "userType":"User Type",
+  "labelUserRole": "Select the user’s role",
+  "invite":"Invite new users to access your account by sending an invitation to the user's email address below.",
+  "emailText":"test@example.com",
+  "inviteUser":"Invite User",
+  "edit":"EDIT",
+  "editUser":"edit",
+  "revokeInvite":"Revoke Invite",
+  "resendInvite":"Resend Invite",
+  "delete":"Delete",
+  "selectText":"Select a user role to update",
+  "confirm":"Are you want to remove the user from this account?"
+
+
+}

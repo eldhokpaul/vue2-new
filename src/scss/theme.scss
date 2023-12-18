@@ -1,0 +1,164 @@
+@import 'variables';
+@import '~vuetify/src/styles/styles';
+
+.absolute {
+  position: absolute;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.line-faded {
+  height: 1px;
+  width: 100%;
+
+  .theme--light & {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.12) 3%, rgba(0, 0, 0, 0.12) 97%, rgba(0, 0, 0, 0));
+  }
+
+  .theme--dark & {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.12) 3%, rgba(255, 255, 255, 0.12) 97%, rgba(255, 255, 255, 0));
+  }
+}
+
+.link {
+  cursor: pointer;
+
+  &:hover {
+    color: $primary;
+    text-decoration: underline;
+  }
+}
+
+var {
+  color: var(--v-info-base) !important;
+}
+
+.text-on-primary {
+  color: var(--v-textOnPrimary-base, rgba(0, 0, 0, 0.87)) !important;
+}
+
+.theme--light.application {
+  background: transparent;
+}
+
+#appToolbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  opacity: 1;
+  transform: translateY(0);
+  transition: box-shadow 200ms linear, opacity 0s 0.3s, transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
+  z-index: 10;
+}
+
+#appToolbar.hide-true {
+  opacity: 0;
+  transform: translateY(-60px);
+}
+
+.v-card--outlined {
+  transition: border ease-in-out 0.2s;
+
+  &.v-card--hover:hover {
+    box-shadow: none;
+
+    &.theme--light {
+      border-color: map-deep-get($material-light, 'text-fields', 'outlined-hover');
+    }
+
+    &.theme--dark {
+      border-color: map-deep-get($material-dark, 'text-fields', 'outlined-hover');
+    }
+  }
+
+  &.active {
+    border-color: $primary !important;
+
+    @include elevation(4);
+  }
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  transition: opacity 0.2s ease;
+}
+
+.fade-leave-active {
+  transition: opacity 0.2s ease;
+  opacity: 0;
+}
+
+.theme--light {
+  .app-drawer {
+    border-right: 1px solid map-get($material-light, 'dividers') !important;
+    height: 100%;
+  }
+
+  .v-list-item--active {
+    color: var(--v-toolbar-base) !important;
+    caret-color: var(--v-toolbar-base) !important;
+
+    &::before {
+      opacity: 0;
+    }
+  }
+
+  // .v-data-table tbody tr:nth-of-type(even) {
+  //   background-color: rgb(243, 243, 243);
+  // }
+
+  // .v-data-table tbody tr:nth-of-type(odd) {
+  //   background-color: rgb(250, 250, 250);
+  // }
+
+  .v-data-table-header {
+    background-color: rgba(182, 183, 187);
+    color: white;
+  }
+
+  // .v-data-footer {
+  //   background-color: rgb(250, 250, 250);
+  //   margin-right: 0 !important;
+  // }
+
+  .theme--light.v-data-table thead tr th {
+    color: white;
+  }
+}
+
+.theme--dark {
+  .app-drawer {
+    border-right: 1px solid map-get($material-dark, 'dividers') !important;
+    height: 100%;
+
+    .v-btn--active,
+    .v-list-item:active,
+    .v-list-item--link::before {
+      background-color: var(--v-primary-base) !important;
+    }
+  }
+
+  // .v-data-table tbody tr:nth-of-type(even) {
+  //   background-color: rgba(0, 0, 0, 0.25);
+  // }
+
+  // .v-data-table tbody tr:nth-of-type(odd) {
+  //   background-color: rgba(0, 0, 0, 0.5);
+  // }
+
+  .v-data-table-header {
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+
+  // .v-data-footer {
+  //   background-color: rgba(0, 0, 0, 0.25);
+  //   margin-right: 0 !important;
+  // }
+
+  .theme--light.v-data-table thead tr th {
+    color: white;
+  }
+}

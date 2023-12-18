@@ -1,0 +1,83 @@
+// @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;515;600;700&display=swap');
+@import "theme";
+
+h1,
+h2,
+h3,
+h4,
+.v-card__title {
+  // font-family: 'Comfortaa', cursive;
+  font-weight: normal;
+}
+
+.page-title {
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+
+.v-data-table td {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.v-data-table__wrapper {
+  max-height: 80vh;
+}
+
+.nested-table {
+  .v-data-table__wrapper {
+    max-height: 70vh;
+  }
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.row-pointer tbody tr :hover {
+  cursor: pointer;
+}
+
+.v-data-table--dense {
+  .text-left .v-input--checkbox {
+    .v-input__slot {
+      margin: 0;
+    }
+  }
+
+  .v-input--selection-controls {
+    margin: 0;
+    padding-top: 0;
+  }
+
+  .text-left .v-input--checkbox .v-messages {
+    margin: 0 !important;
+    display: none !important;
+  }
+}
+
+.v-data-table-header tr th {
+  white-space: nowrap;
+}
+
+.page-container {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.page-heading {
+  .v-toolbar__content {
+    padding: 0;
+  }
+}
+
+.intercom-lightweight-app-launcher, .intercom-launcher-frame {
+  left: 20px !important;
+  bottom: 20px !important;
+}
+
+.intercom-messenger-frame {
+  left: 20px !important;
+  bottom: 100px !important;
+}

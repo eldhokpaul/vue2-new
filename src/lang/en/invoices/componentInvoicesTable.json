@@ -1,0 +1,18 @@
+{
+  "searchProducts": "Search products",
+  "searchStatus": "Search status",
+  "searchVersion": "Search version",
+  "searchTotal": "Total range",
+  "supplier": "Contact",
+  "invoiceNumber": "Invoice Number",
+  "costType": "Cost Type",
+  "reconciled": "Reconciled",
+  "total": "Total",
+  "trackingNumber": "Tracking number",
+  "contact": "Contact",
+  "status": "Status",
+  "payReferenceNumber": "Pay Reference Number",
+  "date": "Date",
+  "billToCompany": "Bill to company",
+  "userId": "User ID"
+}

@@ -1,0 +1,13 @@
+{
+  "SyncProductsAmazon": "Sync your products from Amazon",
+  "syncProductDescription": "Click \"Start sync\" to sync your Amazon products to your SellerVue account",
+  "startSync": "Start sync",
+  "close": "Close",
+  "productSyncedDescription": "You have synced {value} products from Amazon",
+  "seeSummaryBelow": "See the summary below",
+  "finish": "Finish",
+  "syncInProgress": "Sync in progress",
+  "checkLater": "Please check back later, this can take some time. You can refresh the page to update the data",
+  "syncSuccessful": "Sync successful!",
+  "syncSuccess": "Processed successfully on {value}"
+}

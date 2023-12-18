@@ -1,0 +1,12 @@
+{
+  "upload": "Upload an invoice",
+  "title": "Invoices",
+  "updateLine": "Update",
+  "noInvoices": "You haven't uploaded any invoices yet",
+  "actions": {
+    "success": "Success!",
+    "error": "Something went wrong"
+  },
+  "yes": "Yes",
+  "no": "No"
+}

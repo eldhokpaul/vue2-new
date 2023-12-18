@@ -1,0 +1,52 @@
+{
+  "404": {
+    "description": "The page you were looking for does not exist",
+    "takeMeBack": "Take me back"
+  },
+  "422": {
+    "description": "Something went wrong"
+  },
+  "token": {
+    "missed": "Your token is gone, please re-login"
+  },
+  "rules": {
+    "fieldRequired": "This field is required",
+    "passwordRequired": "Password is required",
+    "required": "This field is required",
+    "passwordMatch": "Password must match",
+    "emailRequired": "E-mail is required",
+    "emailValid": "E-mail must be valid"
+  },
+  "dashboard": {
+    "noData": "No data",
+    "noRange": "No range"
+  },
+  "user": {
+    "noEmail": "No email",
+    "noUser": "No user",
+    "notValid": "The user is not authorized",
+    "sessionExpired": "Your session has expired, please login again"
+  },
+  "invoices": {
+    "noInvoice": "Invoice not found"
+  },
+  "products": {
+    "skuNotUniq": "SKU must be unique",
+    "noSupplier": "At least one supplier is required",
+    "noProducts": "Please select at least one product",
+    "selectChangedProducts": "Select changed products only"
+  },
+  "generic": {
+    "notFound": "Error, {entityName} not found",
+    "patch": "An error occured trying to update {entityName}",
+    "post": "An error occured trying to create {entityName}",
+    "delete": "An error occured trying to delete {entityName}",
+    "get": "An error occured trying to get {entityName}",
+    "sync": "An error occured trying to sync {entityName}",
+    "disconnect": "An error occured trying to disconnect {entityName}",
+    "search": "An error occured trying to search {entityName}"
+  },
+  "auth": {
+    "incorrectEmailPassword": "Incorrect email address or password"
+  }
+}

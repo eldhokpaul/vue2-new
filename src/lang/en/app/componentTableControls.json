@@ -1,0 +1,23 @@
+{
+  "labels": {
+    "collapseRows": "Collapse rows",
+    "expandRows": "Expand rows",
+    "export": "Export",
+    "exportSelectItems": "Select items before exporting",
+    "print": "Print",
+    "printSelectItems": "Select items before printing",
+    "selectColumns": "Select columns to display",
+    "search": "Search items",
+    "sync": "Sync",
+    "charts": "Charts",
+    "filter": "Filter",
+    "columns": "Columns",
+    "clearAll":"Clear All",
+    "saveToThisView":"Save to this view",
+    "selectAll":"Select all",
+    "youCanAdd":"You can add a ",
+    "maximum":"maximum",
+    "of":" of ",
+    "payments":" payments"
+  }
+}
